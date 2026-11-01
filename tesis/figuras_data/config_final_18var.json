@@ -1,0 +1,19 @@
+{
+  "capas_lstm": [
+    128,
+    64
+  ],
+  "ventana": 15,
+  "learning_rate_lstm": 0.0003,
+  "epocas_corridas": 33,
+  "epoca_optima": 23,
+  "val_loss_min": 0.011027997359633446,
+  "hiperparams_xgb": {
+    "subsample": 0.8,
+    "n_estimators": 450,
+    "max_depth": 2,
+    "learning_rate": 0.01,
+    "colsample_bytree": 0.9
+  },
+  "n_variables": 38
+}

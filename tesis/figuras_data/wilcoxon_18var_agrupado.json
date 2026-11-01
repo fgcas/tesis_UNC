@@ -1,0 +1,9 @@
+{
+  "n_pares": 8538,
+  "n_dias": 1423,
+  "pct_lstm_mejor": 69.2316701803701,
+  "mediana_lstm": 1.5108830062672496,
+  "mediana_xgboost": 1.7814660530537365,
+  "p_valor": 3.263534372827376e-245,
+  "r_rango_biserial": 0.41790949335268546
+}

@@ -1,0 +1,2 @@
+estacion,fecha_inicio_vacio,fecha_fin_vacio,dias_vacio,rmse_lstm,mae_lstm,sesgo_lstm,r_lstm,rmse_xgb,mae_xgb,sesgo_xgb,r_xgb
+AUGUSTO_WEBERBAUER,2022-09-16,2022-09-30,15,2.81,2.096,-0.769,-0.068,2.872,2.433,0.049,-0.085

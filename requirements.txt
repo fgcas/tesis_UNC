@@ -1,0 +1,33 @@
+# =============================================================================
+# Entorno para 001_Tesis.ipynb — Apple Silicon (arm64), Python 3.11
+# Instalar con: pip install -r requirements.txt
+# =============================================================================
+
+# --- Núcleo científico / manejo de datos ---
+pandas
+numpy
+xarray
+netCDF4          # backend requerido por xarray para leer PISCOp_dv03.nc
+
+# --- Visualización ---
+matplotlib
+seaborn
+missingno
+
+# --- Machine Learning clásico ---
+scikit-learn      # IterativeImputer, RobustScaler, MinMaxScaler, LinearRegression, métricas
+xgboost
+
+# --- Deep Learning (Apple Silicon: backend Metal) ---
+tensorflow-macos
+tensorflow-metal   # aceleración GPU vía Metal; opcional pero recomendado en Apple Silicon
+pydot              # requerido por tensorflow.keras.utils.plot_model
+graphviz           # requerido por plot_model (además necesita el binario: brew install graphviz)
+
+# --- Entorno notebook ---
+jupyterlab
+ipywidgets
+
+# --- Google Earth Engine (extracción de ERA5-Land y SRTM para las 6 estaciones) ---
+earthengine-api
+geemap            # utilidades de conveniencia sobre earthengine-api (opcional pero útil)

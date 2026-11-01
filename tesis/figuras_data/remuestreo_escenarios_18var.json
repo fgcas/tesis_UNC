@@ -1,0 +1,18 @@
+{
+  "A (2%)": {
+    "pct_lstm_mejor_rmse": 65.66666666666666,
+    "pct_lstm_mejor_nse": 68.0
+  },
+  "B (5%)": {
+    "pct_lstm_mejor_rmse": 76.0,
+    "pct_lstm_mejor_nse": 78.33333333333333
+  },
+  "C (8%)": {
+    "pct_lstm_mejor_rmse": 72.66666666666667,
+    "pct_lstm_mejor_nse": 76.0
+  },
+  "D (10%)": {
+    "pct_lstm_mejor_rmse": 80.0,
+    "pct_lstm_mejor_nse": 84.0
+  }
+}

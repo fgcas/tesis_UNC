@@ -1,0 +1,9 @@
+{
+  "D (humedad+temp_min+viento_u+viento_v)": {
+    "subsample": 0.8,
+    "n_estimators": 450,
+    "max_depth": 2,
+    "learning_rate": 0.01,
+    "colsample_bytree": 0.9
+  }
+}

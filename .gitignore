@@ -1,0 +1,18 @@
+# Datos sensibles / no redistribuibles: registro diario de SENAMHI, entregado
+# por solicitud institucional (Anexo E de la tesis). NUNCA subir este archivo.
+datos/DATA_PP.csv
+
+# Producto PISCOp v3.0: público pero demasiado pesado para el repositorio
+# (~1.5 GB). Se descarga aparte, ver instrucciones en el notebook y en el README.
+datos/PISCOp_dv03.nc
+
+# Entorno virtual de Python
+.venv/
+__pycache__/
+*.pyc
+
+# Checkpoints de Jupyter
+.ipynb_checkpoints/
+
+# Archivos de sistema
+.DS_Store
